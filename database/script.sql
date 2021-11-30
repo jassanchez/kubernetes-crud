@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS CRUD;
+USE CRUD;
+
+CREATE TABLE IF NOT EXISTS Insumo(
+    idInsumo INT PRIMARY KEY AUTO_INCREMENT,
+    NombreInsumo VARCHAR(50),
+    UnidadMedida VARCHAR(05),
+    Cantidad     FLOAT
+);
